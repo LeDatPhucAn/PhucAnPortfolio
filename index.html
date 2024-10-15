@@ -6,108 +6,81 @@
 -->
 <html>
 	<head>
-		<title>Le Dat Phuc An - Computer Science student</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-			.video-main {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				margin-bottom: 20px;
-			}
-	
-			video {
-				max-width: 100%;
-				height: auto;
-			}
-		</style>
-		<title>Automated Facebook Messaging</title>
+		<title>An's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Lê Đạt Phúc An</h1>
+						<p>APCS24 @ VNUHCM - University of Science</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a href="#nav" class="logo scrolly">Welcome</a>
+						<ul class="actions">
+							<li><a href="#nav" class="logo scrolly">Peekaboo</a></li>
+						</ul>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="AboutMe.html">About me</a></li>
-							<li class="active"><a href="index.html">My Project</a></li>
+							<li class="active"><a href="index.html">About me</a></li>
+							<li><a href="Project.html">My Project</a></li>
 							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.facebook.com/thui.jollibee/" class="icon brands fa-facebook-f" target = "_blanks"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/LeDatPhucAn/" class="icon brands fa-github" target = "_blanks"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.facebook.com/thui.jollibee/" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/LeDatPhucAn" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Post -->
-							<section class="post">
+						<!-- Featured Post -->
+							<article class="post featured">
 								<header class="major">
-									<h1><a>Automated Facebook Messaging</a></h1>
-										<p>With the help of chatGPT, I developed a Python-based automation script that uses Selenium WebDriver to send preset messages on Facebook Messenger, simulating human interactions. This tool is particularly useful for automating outreach or handling inquiries on various Facebook pages. It supports a diverse range of predefined messages and mimics human behavior to reduce detection as a bot.</p></p>
+									<h2><a>Biography</a></h2>
+									<p>Hi, I am Phúc An, currently a freshman in Computer Science at VNUHCM - University of Science, Ho Chi Minh city </br>
+									I am interested in building projects related to C++ or Python as it helps me get hands-on experience 
+									as well as knowledge about the field I'm studying. </br>
+								 	</p>
 								</header>
-								<header><a target = "_blank" href="https://github.com/LeDatPhucAn/Facebook_auto_message/blob/main/FB_automes/AutoMessage.py"><b><u>Automated Messages: (click here for source code) </u></b></a></header>
-									<div class="video-main">
-											<video controls autoplay muted  width ="700">
-												<source src="Automation.mp4">
-											</video>
-									</div>
-									<header><a target = "_blank" href="https://github.com/LeDatPhucAn/Facebook_auto_message/blob/main/FB_automes/Response.py"><b><u>Getting Responses: (click here for source code) </u></b></a></header>
-									<div class="video-main">
-										<video controls autoplay muted  width ="700">
-											<source src="GettingResponses.mp4">
-										</video>
-									</div>
-								<p><b><i>Key Features:</i></b></p>
-									<li><b>Automated Messaging:</b> The bot sends predefined messages across a list of Facebook pages. Each page receives a random version of the messages from a set of templates, which are customizable.</li>
-									<li><b>Human-like Interaction:</b> To avoid bot detection, the script simulates realistic human behavior with randomized typing speeds, mouse movements, and scrolling. It even includes the ability to simulate mistakes or typos.</li>
-									<li><b>Randomized Text Versions:</b> Multiple message versions are prepared, ensuring each interaction is slightly different, adding to the authenticity of the communication.</li>
-									<li><b>Logging System:</b> The bot logs both successful and failed messaging attempts, allowing for review and potential follow-up. It also remembers previously messaged pages, preventing duplicate interactions in future runs.</li>
-									<li><b>Message Extraction:</b> It uses XPath to locate message bubbles in the chat window and extract the text content of the messages.</li>
-									<li><b>Data Storage:</b> It collects all responses from different pages and saves them in a structured JSON file (responses.json) for easy access.</li>
-								<p><br/><b><i>Use cases:</i></b></p>
-								<li>Automating outreach on multiple Facebook pages.</li>
-								<li>Automating responses retrieval on multiple Facebook pages.</li>
-								<li>Conducting bulk messaging for promotional purposes or information gathering through inquiries.</li>
-							</section>
+								<a><img id="cuteboi" src="this gif_.gif" alt="" width = "750"/></a>
+							</article>
 					</div>
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section>
+					<h3>Email</h3>
+					<p>2015phucan@gmail.com</p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.facebook.com/thui.jollibee/" class="icon brands alt fa-facebook-f" target = "_blanks"><span class="label">Facebook</span></a></li>		
+						<li><a href="https://github.com/LeDatPhucAn" class="icon brands alt fa-github" target = "_blanks"><span class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p>2015phucan@gmail.com</p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.facebook.com/thui.jollibee/" class="icon brands alt fa-facebook-f" target = "_blanks"><span class="label">Facebook</span></a></li>		
-									<li><a href="https://github.com/LeDatPhucAn" class="icon brands alt fa-github" target = "_blanks"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Massively</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
+	<!-- Copyright -->
+		<div id="copyright">
+			<ul><li>&copy; Massively</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+		</div>			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
