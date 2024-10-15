@@ -38,7 +38,6 @@
 		@include color-table($p);
 		@include color-pagination($p);
 	}
-
 // Base.
 
 	@import 'base/reset';

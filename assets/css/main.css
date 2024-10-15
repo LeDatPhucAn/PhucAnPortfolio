@@ -32,7 +32,17 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+#cuteboi {
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+.display {
+	display:block; 
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
 ol, ul {
 	list-style: none;
 }
